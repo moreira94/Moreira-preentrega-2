@@ -1,8 +1,8 @@
 
-export const ItemListContainer =() => {
+export const ItemListContainer =({greeting}) => {
     return (
     <section className="list-container">
-        <h1>Productos</h1>
+<h1  className="font-semibold">Bienvenidos a mi sitio web</h1>
         </section>
     )
 }
