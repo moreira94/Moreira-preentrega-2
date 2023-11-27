@@ -1,7 +1,13 @@
 @import "./NavBar/NavBar";
 @import "./ItemListContainer/ItemListContainer";
+@import "./Cart/Cart";
 
 * {
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
 }
