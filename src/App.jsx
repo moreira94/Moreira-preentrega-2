@@ -8,9 +8,11 @@ function App() {
   return (
       <div>
         <NavBar />
-        <ItemListContainer greeting= {"Bienvenidos a mi sitio web"} />
+        <h1>Productos</h1>
+        <ItemListContainer />
       </div>
   )
 }
 
 export default App
+

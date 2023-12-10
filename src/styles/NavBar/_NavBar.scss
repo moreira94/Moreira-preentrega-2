@@ -15,10 +15,10 @@
 .header-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   font-weight: 500;
   .link {
-  font-size: 25px;
+  font-size: 30px;
   text-decoration: none;
   color: rgb(195, 166, 95);
 }
@@ -31,21 +31,4 @@
   margin-right: 10px;
 }
 
-.cart {
-  font-size: 25px;
-  color: white;
 
-
-}
-.cart-counter {
-  display: flex;
-  gap: 10px;
-
-  p {
-
-    color: white;
-    font-size: 20px;
-
-
-  }
-}

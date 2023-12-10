@@ -1,8 +1,15 @@
+import ItemList from "../ItemList/ItemList"
 
-export const ItemListContainer =({greeting}) => {
+export const ItemListContainer = () => {
+
+
+
     return (
-    <section className="list-container">
-<h1  className="font-semibold">Bienvenidos a mi sitio web</h1>
-        </section>
+        
+            <div>
+            <ItemList />
+            </div>
+
+
     )
 }
