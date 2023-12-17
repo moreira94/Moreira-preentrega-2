@@ -2,15 +2,33 @@ import "./App.css"
 import './styles/style.scss'
 import { ItemListContainer } from './components/ItemListContainer/ItemListContainer.jsx'
 import { NavBar } from './components/NavBar/NavBar.jsx'
+import { ItemDetailContainer } from "./components/itemDetailContainer/ItemDetailContainer.jsx"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { Contacto } from "./components/contacto/Contacto.jsx"
+import { Nosotros } from "./components/nosotros/Nosotros.jsx"
+import { Index } from "./components/index/Index.jsx"
+import { Footer } from "./components/Footer/Footer.jsx"
+import {Item} from "./components/item/Item.jsx"
+import { ItemDetail } from "./components/itemDetail/ItemDetail.jsx"
 
 function App() {
 
   return (
-      <div>
+      <BrowserRouter>
+
         <NavBar />
-        <h1>Productos</h1>
-        <ItemListContainer />
-      </div>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/Contacto" element={<Contacto />} />
+          <Route path="/Nosotros" element={<Nosotros />} />
+          <Route path="/Tienda" element={<ItemListContainer />} />
+          <Route path="/Item/:id" element={<ItemDetailContainer />} />
+
+
+        </Routes>
+
+        <Footer />
+      </BrowserRouter>
   )
 }
 

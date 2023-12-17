@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+    .container-fluid {
+        display: flex;
+        justify-content: space-evenly;
+        .navbar-collapse {
+            justify-content: space-between;
+            flex-grow: 0;
+        }
+        .nav-item {
+            margin: 20px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .container-fluid {
+        position: relative;
+        // top: 70px;
+    }
+
+    #navbarNavDropdown {
+        width: 100%;
+        top: 20px;
+    }
+    .header-links {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-weight: 800;
+        .link {
+          font-size: 20px;
+          text-decoration: none;
+          color: rgb(195, 166, 95);
+        }
+      }
+}
+
+
+
