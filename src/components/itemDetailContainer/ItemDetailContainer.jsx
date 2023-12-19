@@ -8,7 +8,6 @@ export const ItemDetailContainer = () => {
 
     const [movies, setMovies ] = useState(null)
     const id= useParams().id;
-    console.log(id)
 
     useEffect(() => {
         getProductById(Number(id))

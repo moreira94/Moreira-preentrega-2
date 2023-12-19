@@ -1,0 +1,25 @@
+.filtro-container {
+  background-color: gray;
+  .filtro-title {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+  .filtro-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 10px;
+    li {
+      .filtro-link {
+        text-decoration: none;
+        color: rgb(195, 166, 95);
+        border: double;
+        padding: 10px;
+        background-color: black;
+      }
+      cursor: pointer;
+    }
+  }
+}

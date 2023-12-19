@@ -3,7 +3,7 @@ import { ItemCount } from '../itemCount/ItemCount'
 
 export const ItemDetail = ({id, title, release_date, overview, vote_average, stock, poster_path, price} ) => {
   return (
-    <div>
+    <div className='card-detail-container'>
         <div className='card-detail'>
                     <h2>{title}</h2>
                     <div className='detail-img'>
