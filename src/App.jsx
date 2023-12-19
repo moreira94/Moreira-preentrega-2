@@ -8,8 +8,6 @@ import { Contacto } from "./components/contacto/Contacto.jsx"
 import { Nosotros } from "./components/nosotros/Nosotros.jsx"
 import { Index } from "./components/index/Index.jsx"
 import { Footer } from "./components/Footer/Footer.jsx"
-import {Item} from "./components/item/Item.jsx"
-import { ItemDetail } from "./components/itemDetail/ItemDetail.jsx"
 
 function App() {
 

@@ -6,7 +6,7 @@ export const Filtro = () => {
   return (
     <div className='filtro-container'>
         <div className='filtro-title'>
-        <h2>Selecciona las películas por década</h2>
+        <h1>Selecciona las películas por década</h1>
         </div>
             <ul className='filtro-items'>
                 <li><Link className='filtro-link' to="/">Todas</Link></li>
