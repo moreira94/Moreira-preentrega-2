@@ -1,4 +1,20 @@
 .footer-container {
+    background-color: rgb(37, 37, 37);
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    align-items: center;
+    .footer-links {
     height: 120px;
-    background-color: gray;
+    h1 {
+        background-color: rgb(37, 37, 37);
+        color: rgb(195, 166, 95);
+    }
+}
+    .footer-copyright {
+        border-top: 2px solid;
+        border-color: black;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
 }

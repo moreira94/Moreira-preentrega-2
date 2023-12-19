@@ -18,7 +18,7 @@ export const NavBar = () => {
                         <span className="navbar-toggler-icon navbar-dark"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul className="navbar-nav mb-2 mb-lg-0">
+                            <ul className="navbar-nav ">
                                 <li className="nav-item">
                                     <Link className="nav-link link" to="/Contacto">Contacto</Link>
                                 </li>
