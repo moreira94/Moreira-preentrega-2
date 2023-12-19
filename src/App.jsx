@@ -18,7 +18,6 @@ function App() {
         <Routes>
           <Route path="/Index" element={<Index />} />
           <Route path="/Contacto" element={<Contacto />} />
-          <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/" element={<ItemListContainer />} />
           <Route path="/Item/:id" element={<ItemDetailContainer />} />
           <Route path="/movies/:decada" element={<ItemListContainer />} />

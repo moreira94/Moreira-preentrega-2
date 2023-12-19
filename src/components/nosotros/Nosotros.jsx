@@ -2,9 +2,10 @@ import React from 'react'
 
 export const Nosotros = () => {
   return (
-    <div>
+    <div className='nosotros-container'>
         
-        <h1>Esta es la pagina sobre nosotros</h1>
+        <h1>Somos Moviestack!</h1>
+
         
     </div>
   )

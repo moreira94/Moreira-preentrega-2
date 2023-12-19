@@ -1,21 +1,23 @@
 .footer-container {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(37, 37, 37);
-  display: grid;
-  grid-template-rows: 3fr 1fr;
   border-top: 3px solid;
   border-color: black;
   .footer-links {
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    height: 9px;
-    .footer-info, .footer-enlaces {
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
-      p, a {
+    grid-template-columns: 2fr 1fr;
+    .footer-info,
+    .footer-enlaces {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 10px;
+      p,
+      a {
         color: rgb(195, 166, 95);
         margin-bottom: 0;
-        text-decoration:none;
+        text-decoration: none;
       }
     }
   }

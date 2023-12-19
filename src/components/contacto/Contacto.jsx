@@ -18,7 +18,7 @@ export const Contacto = () => {
               <input type="email" placeholder="Introduzca su email" />
             </div>
           </div>
-          <div>
+          <div className='mensaje-y-check'>
           <div className='mensaje'>
             <label>Mensaje:</label>
             <textarea className='input-mensaje' type="text" placeholder="Mensaje" />
